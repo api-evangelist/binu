@@ -1,7 +1,26 @@
 aid: binu
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/binu.png
 name: Binu
-description: Binu is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: "Datafree Technologies (originally biNu, founded 2008 and headquartered
+  in Sydney, Australia) operates a #datafree reverse-billing connectivity platform
+  that lets enterprises sponsor the mobile data cost of their websites, apps and portals
+  so end users can reach those digital services without spending their own airtime
+  or data - much like a toll-free number, but for the mobile internet. Widely deployed
+  across South African mobile networks, the platform works on any device with no new
+  SIM, top-up or contract, and layers on security controls, allowlist management,
+  time windows, usage caps and audit logging. Products include the Datafree Platform
+  and Datafree Connect. Backed by 500 Global."
 url: https://raw.githubusercontent.com/api-evangelist/binu/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Connectivity
+- Mobile Data
+- Reverse Billing
+- Zero Rating
+- Telecommunications
+- Africa
+- Data Sponsorship
+- Digital Inclusion
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,22 @@ maintainers:
 common:
 - type: Website
   url: https://datafr.ee
+- type: DeveloperPortal
+  url: https://docs.datafree.tech/
+- type: Documentation
+  url: https://docs.datafree.tech/
+- type: Login
+  url: https://portal.datafree.tech/login
+- type: Support
+  url: https://datafree.tech/contact-us/
+- type: PrivacyPolicy
+  url: https://datafree.tech/privacy-policy/
+- type: TermsOfService
+  url: https://datafree.tech/wp-content/uploads/2025/09/UPDATED-Datafree-Terms-and-Conditions-updated-11-September-2025-FINAL.docx.pdf
+- type: DomainSecurity
+  url: security/binu-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
